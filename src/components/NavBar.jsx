@@ -4,7 +4,10 @@ import { CiSearch } from "react-icons/ci";
 import { GoLaw } from "react-icons/go";
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-
+import { SlSocialFacebook } from "react-icons/sl";
+import { FiTwitter } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
 
 
 const listOfNavigation = [
@@ -16,7 +19,7 @@ const listOfNavigation = [
         link: 'Services'  
     },
     {
-        link : 'Iyandikishe',
+        link : 'Umunyamategeko',
         to : 'register'
     },
     {
@@ -29,9 +32,9 @@ const listOfNavigation = [
 
 const NavBar = () => {
   return (
-    <div className='nav relative gap-12 grid justify-center shadow py-4  sticky top-0 right-0 z-30  rounded-md'>
+    <div className='nav relative gap-12 grid justify-center shadow py-4  sticky top-0 right-0 z-30 text-gray-100  rounded-md bg-[#003566] mx-2 md:mx-32 lg:mx-32'>
         <div 
-            className="logo absolute left-4 top-2 text-[40px] text-gray-400">
+            className="logo absolute left-4 top-2 text-[40px]">
             <GoLaw />
         </div>
         <div className="menu">
@@ -51,23 +54,15 @@ const NavBar = () => {
                 </ul>
             </div>
         </div>
-        <div className="search flex absolute right-12 top-4 invisible md:invisible lg:visible ">
-            <CiSearch className='text-[20px] absolute top-2 left-2' />
-            <input 
-                className='
-                border
-                border-gray-300
-                rounded-md
-                ps-8
-                py-1.5
-                text-sm
-                focus:border-[#8338ec]
-                focus:outline-none
-                '
-                type="text" 
-                placeholder="Shakisha ..."/>
+        <div className="search flex absolute right-12 top-2 invisible md:invisible lg:visible ">
+        <ul className='flex gap-2 text-[20px] text-gray-100  pt-4 pb-6 '>
+        <li><SlSocialFacebook /></li>
+        <li><FiTwitter /></li>
+        <li><FaInstagram /></li>
+        <li><CiLinkedin /></li>
+      </ul>
         </div>
-        <div className="menu-icon absolute right-4 top-4 text-[30px] text-gray-400 show md:show lg:hidden">
+        <div className="menu-icon absolute right-4 top-4 text-[30px] text-gray-100 show md:show lg:hidden">
             <TiThMenuOutline />
         </div>
     </div>

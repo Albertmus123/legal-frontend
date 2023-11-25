@@ -51,14 +51,14 @@ const HeroSection = () => {
               border
               border-gray-300
               rounded-md
-              text-[12px]
-              md:text-[14px]
-              lg:text-[14px]
+              text-[14px]
+              md:text-[16px]
+              lg:text-[17px]
               shadow
-              bg-[#8338ec]
+              bg-[#003566]
               shadow-xl
-              py-3
-              px-3
+              py-4
+              px-4
               text-gray-100
               '
               >
