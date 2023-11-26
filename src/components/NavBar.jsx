@@ -32,7 +32,7 @@ const listOfNavigation = [
 
 const NavBar = () => {
   return (
-    <div className='nav relative gap-12 grid justify-center shadow py-4  sticky top-0 right-0 z-30 text-gray-100  rounded-md bg-[#003566] mx-2 md:mx-32 lg:mx-32'>
+    <div className='nav relative gap-12 grid justify-center shadow py-4  sticky top-0 right-0 z-30 text-gray-100  rounded-md bg-[#003566] mx-2 md:mx-28 lg:mx-24'>
         <div 
             className="logo absolute left-4 top-2 text-[40px]">
             <GoLaw />
