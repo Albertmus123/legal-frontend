@@ -33,7 +33,7 @@ const HeroSection = () => {
   return (
     <motion.div className='heroImageb bg-cover bg-no-repeat bg-center grid justify-center pt-4 md:pt-16 lg:pt-24 pb-28'>
         <div className='hero-title py-12'>
-          <h1 className='text-gray-100 text-[40px] md:text-[60px] lg:text-[60px] ps-16 md:ps-32 lg:ps-48 pb-12'>MURAHO <span className='text-[#003566] bg-gray-100 rounded-xl px-2'>NEZA?</span> </h1>
+          <h1 className='text-gray-100 text-[40px] md:text-[60px] lg:text-[60px] ps-16 md:ps-32 lg:ps-48 pb-12'>MURAKAZA <span className='text-[#003566] bg-gray-100 rounded-xl px-2'>NEZA?</span> </h1>
           <p className='text-gray-100 text-[22px] md:text-[26px] lg:text-[26px] ps-6 md:p-0 lg:p-0 font-bold'> Tugishe Inama Mubyamategeko,  Turaguha Umu avoka uguhagararira, 
             <span className='block text-[#003566] text-[16px] md:text-[26px] lg:text-[26px] bg-gray-100 rounded-full me-4 ps-4 mg:ps-12 lg:ps-12 my-4'>Kurikirana ikirego cyawe aho kigeze .</span>
             
